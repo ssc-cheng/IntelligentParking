@@ -1,0 +1,160 @@
+2020/06/18 14:20:33.477 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:21:57.415 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:22:08.753 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.9974ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:31:27.134 [E] [validata.go:39]  Error 1062: Duplicate entry '0' for key 'PRIMARY'
+2020/06/18 14:31:27.134 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.9961ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:31:55.135 [E] [validata.go:39]  Error 1062: Duplicate entry '0' for key 'PRIMARY'
+2020/06/18 14:31:55.135 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    19.9985ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:32:52.872 [E] [validata.go:39]  Error 1062: Duplicate entry '0' for key 'PRIMARY'
+2020/06/18 14:32:52.872 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.0016ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:39:25.539 [E] [db_connect.go:18]  field UserId tag column(user_id);pk cannot match ) charactor
+2020/06/18 14:39:25.648 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:40:25.262 [E] [db_connect.go:18]  Error 1068: Multiple primary key defined
+2020/06/18 14:40:25.394 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:41:40.420 [E] [db_connect.go:18]  Error 1068: Multiple primary key defined
+2020/06/18 14:41:40.558 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:44:01.789 [E] [db_connect.go:18]  Error 1068: Multiple primary key defined
+2020/06/18 14:44:02.010 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:44:41.544 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:45:04.213 [E] [validata.go:39]  Error 1364: Field 'user_id' doesn't have a default value
+2020/06/18 14:45:04.213 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    20.9951ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:48:51.359 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:48:59.595 [E] [validata.go:39]  Error 1364: Field 'user_id' doesn't have a default value
+2020/06/18 14:48:59.595 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    33.9992ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:49:37.034 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:49:52.654 [E] [validata.go:39]  Error 1364: Field 'user_id' doesn't have a default value
+2020/06/18 14:49:52.655 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    28.0027ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:50:39.295 [E] [validata.go:39]  Error 1364: Field 'pk;' doesn't have a default value
+2020/06/18 14:50:39.295 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    21.0025ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:51:11.366 [E] [db_connect.go:18]  Error 1075: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2020/06/18 14:51:11.482 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:51:20.204 [E] [validata.go:39]  Error 1364: Field 'pk;' doesn't have a default value
+2020/06/18 14:51:20.204 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    22.9976ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 14:51:53.271 [E] [db_connect.go:18]  Error 1068: Multiple primary key defined
+2020/06/18 14:51:53.453 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 14:52:20.477 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:02:31.812 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:05:03.405 [E] [db_connect.go:18]  Error 1068: Multiple primary key defined
+2020/06/18 15:05:03.525 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:05:20.250 [E] [db_connect.go:18]  Error 1068: Multiple primary key defined
+2020/06/18 15:05:20.373 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:07:50.521 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:07:59.575 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    33.9986ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 15:09:04.792 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    30.0011ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 15:10:17.223 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:11:59.620 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:22:34.545 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:22:48.847 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     51.847ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 15:22:52.429 [E] [validata.go:39]  
+2020/06/18 15:22:52.429 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.9973ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 15:23:54.617 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:23:59.044 [E] [validata.go:39]  
+2020/06/18 15:23:59.044 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     36.999ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 15:26:13.272 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:26:16.017 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    30.9995ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 15:26:33.604 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    63.9997ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/18 15:33:33.238 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:34:26.689 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:44:28.850 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:50:34.208 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:51:33.566 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.0014ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 15:53:32.812 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 15:53:39.991 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.9974ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:32:02.075 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 16:32:22.578 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    22.9998ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:40:05.440 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 16:40:43.664 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.9972ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:41:16.360 [E] [validata.go:66]  token校验失败
+2020/06/18 16:41:16.360 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0012ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 16:42:39.768 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 16:43:41.666 [I] [validata.go:45]  2
+2020/06/18 16:43:41.666 [I] [validata.go:46]  ssc
+2020/06/18 16:43:41.666 [I] [validata.go:52]  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTI3MjkwMjEsImp0aSI6IjIiLCJpc3MiOiJzc2MifQ.qj5zsFK0dOtFK3iDNPVLriei5TJtgn_fOpxGyci4FW8
+2020/06/18 16:43:41.666 [E] [validata.go:70]  token校验失败
+2020/06/18 16:43:41.666 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0024ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 16:49:53.251 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.0005ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:49:58.030 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    27.9993ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:50:05.781 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 16:50:08.789 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    35.9954ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:50:15.785 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    31.9984ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:50:53.701 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    32.9997ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:51:06.809 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    34.0027ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:51:08.767 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    33.9975ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:51:10.353 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    33.9992ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:51:13.817 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    32.9974ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:51:20.027 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    33.9975ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:51:26.769 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    32.9979ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:51:32.733 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     34.001ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 16:51:38.740 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    32.9991ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 17:00:42.421 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:02:12.817 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:10:33.238 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:13:37.888 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:16:30.481 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:21:45.172 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:22:44.512 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    51.9975ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 17:22:55.954 [I] [jwt_token.go:73]  1
+2020/06/18 17:22:55.954 [I] [jwt_token.go:74]  qwe
+2020/06/18 17:22:55.955 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0018ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 17:23:04.974 [E] [validata.go:21]  signature is invalid
+2020/06/18 17:23:04.975 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0007ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 17:29:00.619 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|         42ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 17:29:02.507 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    39.9975ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 17:29:10.857 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    38.9969ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/18 17:38:49.637 [I] [jwt_token.go:73]  1
+2020/06/18 17:38:49.637 [I] [jwt_token.go:74]  qwe
+2020/06/18 17:38:49.638 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     2.0019ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 17:43:02.539 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:43:06.335 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 17:43:11.556 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0035ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 17:43:20.284 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0058ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 17:43:58.757 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:44:31.132 [E] [validata.go:21]  signature is invalid
+2020/06/18 17:44:31.132 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0007ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 17:47:27.200 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 17:54:03.607 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 18:16:36.420 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 18:16:41.908 [E] [validata.go:21]  signature is invalid
+2020/06/18 18:16:41.908 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0024ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 18:17:13.524 [C] [config.go:176]  the request url is  /user/update
+2020/06/18 18:17:13.524 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is string, not int
+2020/06/18 18:17:13.524 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/Go/src/runtime/iface.go:260
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/goPath/src/intelligent_parking/server/jwt_token.go:78
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:112
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/18 18:17:13.525 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/18 18:17:13.525 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/18 18:21:17.059 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 18:21:23.181 [C] [config.go:176]  the request url is  /user/update
+2020/06/18 18:21:23.181 [C] [config.go:177]  Handler crashed with error interface conversion: interface {} is string, not int
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/Go/src/runtime/iface.go:260
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/goPath/src/intelligent_parking/server/jwt_token.go:78
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:113
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/18 18:21:23.181 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/18 18:21:23.182 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/18 18:23:24.867 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 18:23:49.507 [E] [validata.go:21]  Error 1054: Unknown column 'id' in 'where clause'
+2020/06/18 18:23:49.507 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     42.008ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 18:25:11.146 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 18:25:15.246 [E] [validata.go:21]  没有要更新的数据集信息
+2020/06/18 18:25:15.246 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    41.9971ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 18:25:49.208 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 18:25:57.589 [E] [validata.go:21]  没有要更新的数据信息
+2020/06/18 18:25:57.589 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    35.0056ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 18:26:18.725 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    46.3556ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 18:32:46.376 [E] [validata.go:21]  没有要更新的数据信息
+2020/06/18 18:32:46.377 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    48.0011ms|   match|[46m POST    [0m /user/update   r:/user/update
+2020/06/18 18:35:23.695 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 18:36:23.367 [I] [app.go:215]  http server Running on http://:8081
+2020/06/18 18:36:38.755 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    38.9952ms|   match|[46m POST    [0m /user/update   r:/user/update

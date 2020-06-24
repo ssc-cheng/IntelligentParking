@@ -1,0 +1,750 @@
+2020/06/17 15:56:07.656 [I] [db_connect.go:15]  成功连接数据库
+2020/06/17 15:56:08.279 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 15:58:39.429 [I] [db_connect.go:15]  成功连接数据库
+2020/06/17 15:58:39.950 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 16:01:49.386 [I] [db_connect.go:15]  成功连接数据库
+2020/06/17 16:01:50.180 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 16:02:02.548 [I] [db_connect.go:15]  成功连接数据库
+2020/06/17 16:02:05.050 [I] [db_connect.go:15]  成功连接数据库
+2020/06/17 16:02:09.812 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 16:06:56.891 [I] [db_connect.go:15]  成功连接数据库
+2020/06/17 16:06:57.571 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 16:08:04.188 [I] [user_controller.go:13]  用户注册接口
+2020/06/17 16:08:04.192 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 16:08:04.192 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userregister.tpl
+2020/06/17 16:08:04.192 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 16:08:04.192 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 16:08:04.192 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 16:08:04.192 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 16:08:04.192 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 16:08:04.193 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 16:08:04.193 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 16:08:04.193 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 16:08:04.193 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 16:08:04.194 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 16:10:01.723 [I] [db_connect.go:15]  成功连接数据库
+2020/06/17 16:10:02.444 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 16:10:04.332 [I] [user_controller.go:18]  用户登录接口
+2020/06/17 16:10:04.334 [C] [config.go:176]  the request url is  /user/login
+2020/06/17 16:10:04.334 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 16:10:04.334 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 16:10:04.335 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 16:10:58.272 [I] [db_connect.go:15]  成功连接数据库
+2020/06/17 16:10:59.016 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 16:15:05.658 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:18:38.044 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:20:03.030 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:20:03.030 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:27
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:77
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:30
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:20:03.030 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:20:03.034 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:22:09.052 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:22:23.259 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:22:23.259 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/runtime/panic.go:975
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:27
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/runtime/panic.go:975
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:77
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:30
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:22:23.259 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:22:23.262 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:22:37.783 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:22:41.753 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:22:41.754 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/runtime/panic.go:975
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:27
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/runtime/panic.go:975
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:77
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:30
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:22:41.754 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:22:41.756 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:23:51.566 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:24:59.142 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:26:28.276 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:26:31.262 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:26:31.262 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 17:26:31.262 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:26:31.262 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 17:26:31.262 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 17:26:31.262 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:28
+2020/06/17 17:26:31.262 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:26:31.262 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:26:31.262 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:26:31.262 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:26:31.263 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:77
+2020/06/17 17:26:31.263 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:26:31.263 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:26:31.263 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:26:31.263 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:26:31.263 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:26:31.263 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:26:31.263 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:26:31.264 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:28:27.155 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:28:29.963 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:28:29.963 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:77
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:28:29.963 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:28:29.964 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:36:13.868 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:37:14.689 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:37:18.854 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:37:18.854 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:77
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:37:18.854 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:37:18.864 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:38:16.595 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:38:31.953 [I] [user_controller.go:30]  注册接口
+2020/06/17 17:38:31.953 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:38:31.953 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:38:31.953 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:38:31.953 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:38:31.953 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:38:31.953 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:38:31.954 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:38:31.954 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:38:31.954 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:38:31.954 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:38:31.954 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:38:31.954 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:38:31.954 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:38:31.954 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:39:17.481 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:39:20.454 [I] [user_controller.go:30]  注册接口
+2020/06/17 17:39:20.454 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:39:20.454 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:39:20.454 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:39:20.458 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:39:45.394 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:39:48.320 [I] [user_controller.go:30]  注册接口
+2020/06/17 17:39:48.320 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:39:48.320 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:39:48.320 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:39:48.321 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:39:51.658 [I] [user_controller.go:30]  注册接口
+2020/06/17 17:39:51.658 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:39:51.658 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:39:51.658 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:39:51.662 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:40:30.550 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:40:33.978 [I] [user_controller.go:30]  注册接口
+2020/06/17 17:40:33.978 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:40:33.978 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:40:33.978 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:40:33.979 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:42:36.788 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:42:41.643 [I] [user_controller.go:30]  注册接口
+2020/06/17 17:42:41.644 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:42:41.644 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:42:41.644 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:42:41.645 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:43:54.993 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:43:58.848 [I] [user_controller.go:30]  注册接口
+2020/06/17 17:43:58.848 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:43:58.848 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:43:58.848 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:43:58.849 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:44:21.367 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:44:24.940 [I] [user_controller.go:30]  注册接口
+2020/06/17 17:44:24.940 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:44:24.940 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:31
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:44:24.940 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:44:24.943 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:45:36.318 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:46:53.230 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:47:01.759 [I] [user_controller.go:31]  注册接口
+2020/06/17 17:47:01.764 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:47:01.764 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userregister.tpl
+2020/06/17 17:47:01.764 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:47:01.764 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 17:47:01.764 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 17:47:01.764 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 17:47:01.765 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 17:47:01.765 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 17:47:01.765 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:47:01.765 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:47:01.765 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:47:01.766 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:48:29.254 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:48:34.557 [I] [user_controller.go:32]  注册接口
+2020/06/17 17:48:34.560 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:48:34.560 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userregister.tpl
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:48:34.560 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:48:34.562 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:49:37.370 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:49:41.141 [I] [user_controller.go:32]  注册接口 &{0         0   0     0 0 0 0 0 0}
+2020/06/17 17:49:41.144 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:49:41.144 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userregister.tpl
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:49:41.144 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:49:41.145 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:51:32.290 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:51:37.378 [I] [user_controller.go:32]  
+2020/06/17 17:51:37.378 [I] [user_controller.go:33]  注册接口 &{0         0   0     0 0 0 0 0 0}
+2020/06/17 17:51:37.381 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:51:37.381 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userregister.tpl
+2020/06/17 17:51:37.381 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:51:37.382 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 17:51:37.382 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 17:51:37.382 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 17:51:37.382 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 17:51:37.382 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 17:51:37.382 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:51:37.382 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:51:37.385 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:51:37.387 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:53:16.386 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:54:06.996 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:54:18.855 [I] [user_controller.go:32]   ---------
+2020/06/17 17:54:18.856 [I] [user_controller.go:33]  注册接口 &{0         0   0     0 0 0 0 0 0}
+2020/06/17 17:54:18.860 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 17:54:18.860 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userregister.tpl
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:54:18.861 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:54:18.861 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:57:13.153 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:57:36.303 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 17:57:44.804 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 17:57:44.804 [I] [user_controller.go:47]   ---------
+2020/06/17 17:57:44.806 [C] [config.go:176]  the request url is  /user/login
+2020/06/17 17:57:44.806 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 17:57:44.806 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:57:44.806 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 17:57:44.806 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 17:57:44.806 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 17:57:44.806 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 17:57:44.806 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 17:57:44.807 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:57:44.807 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:57:44.807 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:57:44.808 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:58:12.146 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 17:58:12.146 [I] [user_controller.go:47]   ---------
+2020/06/17 17:58:12.150 [C] [config.go:176]  the request url is  /user/login
+2020/06/17 17:58:12.150 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:58:12.150 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:58:12.151 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 17:58:47.042 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 17:58:47.042 [I] [user_controller.go:47]   ---------
+2020/06/17 17:58:47.044 [C] [config.go:176]  the request url is  /user/login
+2020/06/17 17:58:47.044 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 17:58:47.044 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 17:58:47.045 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 17:58:47.045 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 17:58:47.045 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 17:58:47.045 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 17:58:47.045 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 17:58:47.045 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 17:58:47.045 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 17:58:47.045 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 17:58:47.045 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:00:02.881 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:00:10.253 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|     1.4996ms| nomatch|[46m POST    [0m /user/log
+2020/06/17 18:01:12.908 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:01:14.693 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:01:14.693 [I] [user_controller.go:47]   ---------
+2020/06/17 18:01:14.695 [C] [config.go:176]  the request url is  /log
+2020/06/17 18:01:14.695 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:01:14.695 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:01:14.696 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:04:18.351 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:04:21.384 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:04:21.385 [I] [user_controller.go:47]   ---------
+2020/06/17 18:04:21.387 [C] [config.go:176]  the request url is  /log
+2020/06/17 18:04:21.387 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:04:21.387 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:04:21.388 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:04:33.080 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:04:33.080 [I] [user_controller.go:47]   ---------
+2020/06/17 18:04:33.084 [C] [config.go:176]  the request url is  /log
+2020/06/17 18:04:33.084 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:04:33.084 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:04:33.084 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:06:35.033 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:06:48.035 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:06:48.035 [I] [user_controller.go:48]  [] ++++
+2020/06/17 18:06:48.037 [C] [config.go:176]  the request url is  /log
+2020/06/17 18:06:48.037 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 18:06:48.037 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:06:48.037 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 18:06:48.037 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 18:06:48.037 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 18:06:48.037 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 18:06:48.037 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 18:06:48.038 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:06:48.038 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:06:48.038 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:06:48.038 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:08:03.645 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:08:04.860 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|     1.4979ms| nomatch|[44m GET     [0m /  
+2020/06/17 18:08:05.583 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      1.499ms| nomatch|[44m GET     [0m /favicon.ico
+2020/06/17 18:08:54.099 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|      498.3µs| nomatch|[44m GET     [0m /  
+2020/06/17 18:09:10.221 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:09:10.221 [I] [user_controller.go:48]  ssc name
+2020/06/17 18:09:10.221 [I] [user_controller.go:50]  [] ++++
+2020/06/17 18:09:10.226 [C] [config.go:176]  the request url is  /log
+2020/06/17 18:09:10.226 [C] [config.go:177]  Handler crashed with error can't find templatefile in the path:views/usercontroller/userlogin.tpl
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/template.go:75
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:306
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:257
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/controller.go:237
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:865
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:09:10.226 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:09:10.226 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:10:53.604 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:11:00.131 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:11:00.131 [I] [user_controller.go:48]   name
+2020/06/17 18:11:00.131 [I] [user_controller.go:50]  [] ++++
+2020/06/17 18:11:00.131 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      501.2µs|   match|[44m GET     [0m /log   r:/log
+2020/06/17 18:11:15.698 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:11:15.698 [I] [user_controller.go:48]  qwe name
+2020/06/17 18:11:15.698 [I] [user_controller.go:50]  [] ++++
+2020/06/17 18:11:15.698 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /log   r:/log
+2020/06/17 18:11:20.954 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:11:20.954 [I] [user_controller.go:48]  qwe name
+2020/06/17 18:11:20.954 [I] [user_controller.go:50]  [123 34 110 97 109 101 34 58 34 115 115 99 34 125] ++++
+2020/06/17 18:11:20.954 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /log   r:/log
+2020/06/17 18:11:30.946 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:11:30.946 [I] [user_controller.go:48]   name
+2020/06/17 18:11:30.946 [I] [user_controller.go:50]  [123 34 110 97 109 101 34 58 34 115 115 99 34 125] ++++
+2020/06/17 18:11:30.946 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /log   r:/log
+2020/06/17 18:12:17.944 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:12:41.876 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:12:47.191 [I] [user_controller.go:46]  用户登录接口
+2020/06/17 18:12:47.192 [I] [user_controller.go:48]   name
+2020/06/17 18:12:47.192 [I] [user_controller.go:50]  {"name":"ssc"} ++++
+2020/06/17 18:12:47.192 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.4985ms|   match|[46m POST    [0m /log   r:/log
+2020/06/17 18:14:16.390 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:14:20.627 [D] [router.go:925]  |      127.0.0.1|[43m 404 [0m|     2.5003ms| nomatch|[46m POST    [0m /log
+2020/06/17 18:14:31.098 [I] [user_controller.go:36]  3333333
+2020/06/17 18:14:31.098 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:14:31.098 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:29
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:40
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:14:31.098 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:14:31.099 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:15:29.971 [I] [user_controller.go:36]  3333333
+2020/06/17 18:15:29.971 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:15:29.971 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:29
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:40
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:15:29.971 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:15:29.971 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:16:19.553 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:16:22.402 [I] [user_controller.go:36]  3333333
+2020/06/17 18:16:22.402 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:16:22.402 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:29
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:40
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:16:22.402 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:16:22.403 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:16:52.348 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:16:55.393 [I] [user_controller.go:36]  3333333
+2020/06/17 18:16:55.393 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:16:55.393 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:29
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:40
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:16:55.393 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:16:55.394 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:17:27.538 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:17:30.259 [I] [user_controller.go:33]  3333333
+2020/06/17 18:17:30.260 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:17:30.260 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:26
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:36
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:17:30.260 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:17:30.261 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:17:30.262 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:19:03.431 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:19:09.630 [I] [user_controller.go:28]  {"user_account":"ssc","user_password":"fdsfdsf","user_phone":"13047078692"} +++++
+2020/06/17 18:19:09.630 [I] [user_controller.go:33]  3333333
+2020/06/17 18:19:09.631 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:19:09.631 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:26
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:36
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:19:09.631 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:19:09.633 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:20:18.815 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:20:24.019 [I] [user_controller.go:28]  {"user_account":"ssc","user_password":"fdsfdsf","user_phone":"13047078692"} +++++
+2020/06/17 18:20:24.019 [I] [user_controller.go:33]  3333333
+2020/06/17 18:20:24.019 [I] [user_controller.go:34]  fdsfdsf ssc
+2020/06/17 18:20:24.019 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:20:24.019 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:20:24.019 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:20:24.019 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:54
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:26
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:37
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:20:24.020 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:20:24.024 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:21:30.851 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:21:45.768 [I] [user_controller.go:28]  {"user_account":"ssc","user_password":"fdsfdsf","user_phone":"13047078692"} +++++
+2020/06/17 18:21:45.769 [I] [user_controller.go:33]  3333333
+2020/06/17 18:21:45.769 [I] [user_controller.go:35]  fdsfdsf ssc
+2020/06/17 18:21:45.769 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0001ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/17 18:23:31.611 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:24:34.649 [I] [user_controller.go:30]  {"user_account":"ssc","user_password":"fdsfdsf","user_phone":"13047078692"} +++++
+2020/06/17 18:24:34.649 [I] [user_controller.go:35]  3333333
+2020/06/17 18:24:34.649 [I] [user_controller.go:37]  fdsfdsf ssc
+2020/06/17 18:24:34.649 [I] [user_controller.go:26]  defer -----
+2020/06/17 18:24:34.649 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:24:34.649 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:24:34.649 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:55
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:27
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:39
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:24:34.650 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:24:34.651 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:26:34.191 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:27:17.411 [I] [user_controller.go:30]  {"user_account":"ssc","user_password":"fdsfdsf","user_phone":"13047078692"} +++++
+2020/06/17 18:27:17.411 [I] [user_controller.go:35]  3333333
+2020/06/17 18:27:17.411 [I] [user_controller.go:37]  fdsfdsf ssc
+2020/06/17 18:27:17.411 [I] [user_controller.go:26]  defer -----
+2020/06/17 18:27:17.411 [I] [validata.go:55]  resp: &{0  1 <nil>}
+2020/06/17 18:27:17.411 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:27:17.411 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:56
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:27
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:39
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:27:17.412 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:27:17.412 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:29:18.369 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:29:22.010 [I] [user_controller.go:30]  {"user_account":"ssc","user_password":"fdsfdsf","user_phone":"13047078692"} +++++
+2020/06/17 18:29:22.010 [I] [user_controller.go:35]  3333333
+2020/06/17 18:29:22.010 [I] [user_controller.go:37]  fdsfdsf ssc
+2020/06/17 18:29:22.010 [I] [user_controller.go:26]  defer -----
+2020/06/17 18:29:22.010 [I] [validata.go:56]  resp: &{0  1 2}
+2020/06/17 18:29:22.010 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:29:22.010 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:57
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:27
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:39
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:29:22.010 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:29:22.011 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:32:54.291 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:33:02.675 [I] [user_controller.go:32]  {"user_account":"ssc","user_password":"fdsfdsf","user_phone":"13047078692"} +++++
+2020/06/17 18:33:02.676 [I] [user_controller.go:37]  3333333
+2020/06/17 18:33:02.676 [I] [user_controller.go:39]  fdsfdsf ssc
+2020/06/17 18:33:02.676 [I] [user_controller.go:26]  defer -----
+2020/06/17 18:33:02.676 [I] [validata.go:56]  resp: &{0  1 2}
+2020/06/17 18:33:02.676 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:33:02.676 [C] [config.go:177]  Handler crashed with error assignment to entry in nil map
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/Go/src/runtime/map.go:573
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:57
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:29
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:41
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:33:02.676 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:33:02.677 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:33:02.677 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:33:02.677 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 18:36:52.325 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:36:56.435 [I] [user_controller.go:48]  {"user_account":"ssc","user_password":"fdsfdsf","user_phone":"13047078692"} +++++
+2020/06/17 18:36:56.436 [I] [user_controller.go:53]  3333333
+2020/06/17 18:36:56.436 [I] [user_controller.go:55]  fdsfdsf ssc
+2020/06/17 18:36:56.436 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      998.9µs|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/17 18:39:18.450 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 18:39:20.931 [I] [user_controller.go:24]  defer -----
+2020/06/17 18:39:20.932 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 18:39:20.932 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:61
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/goPath/src/intelligent_parking/utils/validata.go:77
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:29
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 18:39:20.932 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 18:39:20.934 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 18:39:20.934 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 18:39:20.934 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 18:39:20.935 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 19:05:45.464 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 19:05:49.949 [I] [user_controller.go:23]  defer -----
+2020/06/17 19:05:49.949 [C] [config.go:176]  the request url is  /user/register
+2020/06/17 19:05:49.949 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/validata.go:60
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/validata.go:76
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:28
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/17 19:05:49.949 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/17 19:05:49.953 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/17 19:16:08.616 [I] [app.go:215]  http server Running on http://:8081
+2020/06/17 19:16:11.318 [E] [validata.go:39]  UserEmailMust be a valid email address;
+2020/06/17 19:16:11.319 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|      998.9µs|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/17 19:17:07.753 [I] [user_controller.go:31]  3333333
+2020/06/17 19:17:07.753 [I] [user_controller.go:33]  fdsfdsf ssc
+2020/06/17 19:17:07.753 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0018ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/17 19:27:46.323 [I] [app.go:215]  http server Running on http://:8081

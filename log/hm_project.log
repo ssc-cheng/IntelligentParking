@@ -1,0 +1,142 @@
+2020/06/19 16:52:32.270 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 16:52:44.111 [E] [validata.go:21]  没有该用户数据
+2020/06/19 16:52:44.113 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    20.9963ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/19 16:53:54.892 [E] [validata.go:21]  UserPhoneMust be valid mobile number;
+2020/06/19 16:53:54.892 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|        999µs|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 16:54:26.778 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    20.0031ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 16:54:37.619 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.9989ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 16:57:14.806 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 16:57:39.238 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 16:57:42.692 [E] [validata.go:21]  没有该用户数据
+2020/06/19 16:57:42.692 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    63.9941ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 16:59:47.459 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 16:59:53.302 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   264.9881ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 17:00:00.044 [E] [validata.go:21]  该用户名已被注册
+2020/06/19 17:00:00.044 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.9979ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 17:00:04.212 [E] [validata.go:21]  该用户名已被注册
+2020/06/19 17:00:04.212 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.0007ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 17:00:18.409 [E] [validata.go:21]  Token is expired
+2020/06/19 17:00:18.409 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:00:34.176 [E] [validata.go:21]  没有该用户数据
+2020/06/19 17:00:34.176 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    24.8621ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/19 17:00:44.078 [E] [validata.go:21]  用户密码不匹配
+2020/06/19 17:00:44.078 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.0063ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/19 17:00:54.123 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.0041ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/19 17:01:10.399 [E] [validata.go:21]  没有该用户数据
+2020/06/19 17:01:10.399 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    25.0035ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:02:31.990 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:02:35.187 [E] [validata.go:21]  没有该用户数据
+2020/06/19 17:02:35.188 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    41.0051ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:03:20.186 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:03:23.754 [E] [validata.go:21]  没有该用户数据
+2020/06/19 17:03:23.754 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    29.0017ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:04:56.693 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:04:58.695 [E] [validata.go:21]  该用户名已被注册
+2020/06/19 17:04:58.696 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    31.0001ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 17:05:05.343 [I] [user_controller.go:162]  {0         0   0     0 0 0 0 0 0} +++++
+2020/06/19 17:05:05.343 [E] [validata.go:21]  没有该用户数据
+2020/06/19 17:05:05.344 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    30.0011ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:06:02.006 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:06:42.899 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:06:45.265 [E] [validata.go:21]  Error 1054: Unknown column 'user_vehicle_id' in 'field list'
+2020/06/19 17:06:45.266 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    35.9937ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:07:57.255 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:08:00.554 [E] [validata.go:21]  Error 1054: Unknown column 'user_vehicle_id' in 'field list'
+2020/06/19 17:08:00.555 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    37.9985ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:09:44.024 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:09:50.540 [E] [validata.go:21]  没有对应用户与车辆记录: Error 1054: Unknown column 'user_vehicle_id' in 'field list'
+2020/06/19 17:09:50.541 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    38.0002ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:21:59.567 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:22:01.285 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   100.9976ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 17:27:04.537 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:27:11.088 [E] [validata.go:21]  该用户名已被注册
+2020/06/19 17:27:11.088 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    21.0038ms|   match|[46m POST    [0m /user/register   r:/user/register
+2020/06/19 17:27:15.758 [E] [validata.go:21]  Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 17:27:15.758 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    88.9965ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:28:48.885 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:31:17.780 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:33:11.158 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:37:31.852 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:37:34.894 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 17:37:34.895 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   159.9953ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:39:07.950 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:39:10.412 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 17:39:10.413 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   147.9993ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:39:44.175 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:40:22.533 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 17:40:22.534 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   156.9984ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:43:01.093 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:45:35.037 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:45:45.304 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   136.9994ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:49:59.991 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:50:10.440 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   109.0012ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:51:29.166 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:51:31.789 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    103.003ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:53:37.316 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:53:39.779 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 17:53:39.780 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   114.9973ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:55:09.273 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:56:51.093 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:57:00.899 [C] [config.go:176]  the request url is  /user/bindcar
+2020/06/19 17:57:00.899 [C] [config.go:177]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2020/06/19 17:57:00.899 [C] [config.go:183]  C:/Go/src/runtime/panic.go:969
+2020/06/19 17:57:00.899 [C] [config.go:183]  C:/Go/src/runtime/panic.go:212
+2020/06/19 17:57:00.899 [C] [config.go:183]  C:/Go/src/runtime/signal_windows.go:246
+2020/06/19 17:57:00.900 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/go-xorm/xorm@v0.7.9/session_tx.go:9
+2020/06/19 17:57:00.900 [C] [config.go:183]  C:/goPath/src/intelligent_parking/controllers/user_controller.go:141
+2020/06/19 17:57:00.900 [C] [config.go:183]  C:/Go/src/reflect/value.go:460
+2020/06/19 17:57:00.900 [C] [config.go:183]  C:/Go/src/reflect/value.go:321
+2020/06/19 17:57:00.900 [C] [config.go:183]  C:/goPath/pkg/mod/github.com/astaxie/beego@v1.12.1/router.go:853
+2020/06/19 17:57:00.900 [C] [config.go:183]  C:/Go/src/net/http/server.go:2807
+2020/06/19 17:57:00.900 [C] [config.go:183]  C:/Go/src/net/http/server.go:1895
+2020/06/19 17:57:00.900 [C] [config.go:183]  C:/Go/src/runtime/asm_amd64.s:1373
+2020/06/19 17:57:00.900 [log.go:188]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/06/19 17:57:52.485 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:58:00.313 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 17:58:00.314 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   197.1169ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 17:59:41.168 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 17:59:45.798 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 17:59:45.798 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   235.9986ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:00:44.881 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:00:59.746 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 18:00:59.746 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   6.1974288s|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:05:55.346 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:06:04.103 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 18:06:04.103 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   6.1927025s|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:07:16.927 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:07:31.889 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 18:07:31.889 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   6.2428532s|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:08:13.017 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:08:18.995 [E] [validata.go:21]  插入用户与车辆关系表失败: Error 1054: Unknown column 'user_vehicle_user_id' in 'field list'
+2020/06/19 18:08:18.996 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   166.9977ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:15:01.007 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:16:40.105 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:17:03.607 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:19:24.037 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:21:09.097 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:22:48.491 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:25:38.941 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:30:34.852 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:30:43.144 [E] [validata.go:21]  a pointer to a pointer is not allowed
+2020/06/19 18:30:43.145 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   6.1040664s|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:33:54.778 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:37:22.812 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:37:26.343 [I] [user_controller.go:146]  提交事务
+2020/06/19 18:37:26.358 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   963.9989ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:40:16.685 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:40:30.341 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   191.9949ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:42:49.005 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:43:16.609 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    193.999ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:43:45.047 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   175.0007ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:46:33.966 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:46:49.355 [I] [user_controller.go:178]  0 +++++ 0
+2020/06/19 18:46:49.398 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   233.0022ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 18:48:32.623 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 18:48:41.646 [I] [user_controller.go:179]  2 +++++ 2
+2020/06/19 18:48:41.686 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|   6.2416222s|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 19:18:41.810 [I] [app.go:215]  http server Running on http://:8081
+2020/06/19 19:19:00.472 [E] [validata.go:21]  Token is expired
+2020/06/19 19:19:00.473 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|     1.0041ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 19:19:11.367 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    19.9979ms|   match|[46m POST    [0m /user/login   r:/user/login
+2020/06/19 19:19:28.207 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    97.9979ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
+2020/06/19 19:20:09.711 [D] [router.go:925]  |      127.0.0.1|[42m 200 [0m|    98.9974ms|   match|[46m POST    [0m /user/bindcar   r:/user/bindcar
